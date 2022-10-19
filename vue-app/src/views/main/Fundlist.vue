@@ -287,6 +287,11 @@ const handleAdd = async () => {
 //取消
 const handleCancle = () => {
     dialogVisible.value = false;
+    profileData.type = "";
+            profileData.income = "";
+            profileData.expend = "";
+            profileData.describe = "";
+            profileData.remark = "";
 }
 //信息确认
 const handleConfirm = () => {
